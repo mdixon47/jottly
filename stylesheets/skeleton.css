@@ -527,8 +527,7 @@ table {
 /* line 53, ../sass/_base.scss */
 body {
   background: #fff;
-  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   color: #444;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -536,110 +535,110 @@ body {
 
 /* #Typography
 ================================================== */
-/* line 65, ../sass/_base.scss */
+/* line 64, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Lato","Georgia", "Times New Roman", serif;
   font-weight: normal; }
 
-/* line 69, ../sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 70, ../sass/_base.scss */
+/* line 69, ../sass/_base.scss */
 h1 {
   font-size: 46px;
   line-height: 50px;
   margin-bottom: 14px; }
 
-/* line 71, ../sass/_base.scss */
+/* line 70, ../sass/_base.scss */
 h2 {
   font-size: 35px;
   line-height: 40px;
   margin-bottom: 10px; }
 
-/* line 72, ../sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 h3 {
   font-size: 28px;
   line-height: 34px;
   margin-bottom: 8px; }
 
-/* line 73, ../sass/_base.scss */
+/* line 72, ../sass/_base.scss */
 h4 {
   font-size: 21px;
   line-height: 30px;
   margin-bottom: 4px; }
 
-/* line 74, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 h5 {
   font-size: 17px;
   line-height: 24px; }
 
-/* line 75, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 h6 {
   font-size: 14px;
   line-height: 21px; }
 
-/* line 76, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 .subheader {
   color: #777; }
 
-/* line 78, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 p {
   margin: 0 0 20px 0; }
 
-/* line 79, ../sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 p img {
   margin: 0; }
 
-/* line 80, ../sass/_base.scss */
+/* line 79, ../sass/_base.scss */
 p.lead {
   font-size: 21px;
   line-height: 27px;
   color: #777; }
 
-/* line 82, ../sass/_base.scss */
+/* line 81, ../sass/_base.scss */
 em {
   font-style: italic; }
 
-/* line 83, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 strong {
   font-weight: bold;
   color: #333; }
 
-/* line 84, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 small {
   font-size: 80%; }
 
 /*	Blockquotes  */
-/* line 87, ../sass/_base.scss */
+/* line 86, ../sass/_base.scss */
 blockquote, blockquote p {
   font-size: 17px;
   line-height: 24px;
   color: #777;
   font-style: italic; }
 
-/* line 88, ../sass/_base.scss */
+/* line 87, ../sass/_base.scss */
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd; }
 
-/* line 89, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 blockquote cite {
   display: block;
   font-size: 12px;
   color: #555; }
 
-/* line 90, ../sass/_base.scss */
+/* line 89, ../sass/_base.scss */
 blockquote cite:before {
   content: "\2014 \0020"; }
 
-/* line 91, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
   color: #555; }
 
-/* line 93, ../sass/_base.scss */
+/* line 92, ../sass/_base.scss */
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -649,169 +648,114 @@ hr {
 
 /* #Links
 ================================================== */
-/* line 98, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 a, a:visited {
   color: #333;
   text-decoration: underline;
   outline: 0; }
 
-/* line 99, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 a:hover, a:focus {
   color: #000; }
 
-/* line 100, ../sass/_base.scss */
+/* line 99, ../sass/_base.scss */
 p a, p a:visited {
   line-height: inherit; }
 
 /* #Lists
 ================================================== */
-/* line 105, ../sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 ul, ol {
   margin-bottom: 20px; }
 
-/* line 106, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 ul {
   list-style: none outside; }
 
-/* line 107, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 ol {
   list-style: decimal; }
 
-/* line 108, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 ol, ul.square, ul.circle, ul.disc {
   margin-left: 30px; }
 
-/* line 109, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 ul.square {
   list-style: square outside; }
 
-/* line 110, ../sass/_base.scss */
+/* line 109, ../sass/_base.scss */
 ul.circle {
   list-style: circle outside; }
 
-/* line 111, ../sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 ul.disc {
   list-style: disc outside; }
 
-/* line 112, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 ul ul, ul ol,
 ol ol, ol ul {
   margin: 4px 0 5px 30px;
   font-size: 90%; }
 
-/* line 114, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 ul ul li, ul ol li,
 ol ol li, ol ul li {
   margin-bottom: 6px; }
 
-/* line 116, ../sass/_base.scss */
+/* line 115, ../sass/_base.scss */
 li {
   line-height: 18px;
   margin-bottom: 12px; }
 
-/* line 117, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 ul.large li {
   line-height: 21px; }
 
-/* line 118, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 li p {
   line-height: 21px; }
 
 /* #Images
 ================================================== */
-/* line 123, ../sass/_base.scss */
+/* line 122, ../sass/_base.scss */
 img.scale-with-grid {
   max-width: 100%;
   height: auto; }
 
 /* #Buttons
 ================================================== */
-/* line 131, ../sass/_base.scss */
+/* line 130, ../sass/_base.scss */
 .button,
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background: #eee;
-  /* Old browsers */
-  background: #eeeeee -moz-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* FF3.6+ */
-  background: #eeeeee -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.2)));
-  /* Chrome,Safari4+ */
-  background: #eeeeee -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: #eeeeee -o-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* Opera11.10+ */
-  background: #eeeeee -ms-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* IE10+ */
-  background: #eeeeee linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* W3C */
-  border: 1px solid #aaa;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  color: #444;
-  display: inline-block;
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #009ae8;
+  color: #fff;
+  font-size: 1.2em;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0.82em 2.5em;
   cursor: pointer;
-  margin-bottom: 20px;
-  line-height: normal;
-  padding: 8px 10px;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  margin: 0; }
 
-/* line 161, ../sass/_base.scss */
+/* line 152, ../sass/_base.scss */
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  color: #222;
-  background: #ddd;
-  /* Old browsers */
-  background: #dddddd -moz-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* FF3.6+ */
-  background: #dddddd -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.3)));
-  /* Chrome,Safari4+ */
-  background: #dddddd -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: #dddddd -o-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* Opera11.10+ */
-  background: #dddddd -ms-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* IE10+ */
-  background: #dddddd linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* W3C */
-  border: 1px solid #888;
-  border-top: 1px solid #aaa;
-  border-left: 1px solid #aaa; }
+  background: #0483c3; }
 
-/* line 178, ../sass/_base.scss */
-.button:active,
-button:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active {
-  border: 1px solid #666;
-  background: #ccc;
-  /* Old browsers */
-  background: #cccccc -moz-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
-  /* FF3.6+ */
-  background: #cccccc -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.35)), color-stop(100%, rgba(10, 10, 10, 0.4)));
-  /* Chrome,Safari4+ */
-  background: #cccccc -webkit-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: #cccccc -o-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
-  /* Opera11.10+ */
-  background: #cccccc -ms-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
-  /* IE10+ */
-  background: #cccccc linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
-  /* W3C */ }
-
-/* line 192, ../sass/_base.scss */
+/* line 164, ../sass/_base.scss */
 .button.full-width,
 button.full-width,
 input[type="submit"].full-width,
@@ -823,7 +767,7 @@ input[type="button"].full-width {
   text-align: center; }
 
 /* Fix for odd Mozilla border & padding issues */
-/* line 203, ../sass/_base.scss */
+/* line 175, ../sass/_base.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -831,40 +775,40 @@ input::-moz-focus-inner {
 
 /* #Forms
 ================================================== */
-/* line 213, ../sass/_base.scss */
+/* line 185, ../sass/_base.scss */
 form {
   margin-bottom: 20px; }
 
-/* line 215, ../sass/_base.scss */
+/* line 187, ../sass/_base.scss */
 fieldset {
   margin-bottom: 20px; }
 
-/* line 217, ../sass/_base.scss */
+/* line 189, ../sass/_base.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
 textarea,
 select {
   border: 1px solid #ccc;
-  padding: 6px 4px;
+  padding: 0.75em 1em;
   outline: none;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font: 1.2em "Lato","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
   margin: 0;
-  width: 210px;
+  width: 90%;
   max-width: 100%;
   display: block;
   margin-bottom: 20px;
   background: #fff; }
 
-/* line 236, ../sass/_base.scss */
+/* line 208, ../sass/_base.scss */
 select {
   padding: 0; }
 
-/* line 238, ../sass/_base.scss */
+/* line 210, ../sass/_base.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -875,26 +819,26 @@ textarea:focus {
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
 
-/* line 247, ../sass/_base.scss */
+/* line 219, ../sass/_base.scss */
 textarea {
   min-height: 60px; }
 
-/* line 249, ../sass/_base.scss */
+/* line 221, ../sass/_base.scss */
 label,
 legend {
   display: block;
   font-weight: bold;
   font-size: 13px; }
 
-/* line 254, ../sass/_base.scss */
+/* line 226, ../sass/_base.scss */
 select {
   width: 220px; }
 
-/* line 256, ../sass/_base.scss */
+/* line 228, ../sass/_base.scss */
 input[type="checkbox"] {
   display: inline; }
 
-/* line 258, ../sass/_base.scss */
+/* line 230, ../sass/_base.scss */
 label span,
 legend span {
   font-weight: normal;
@@ -903,15 +847,15 @@ legend span {
 
 /* #Misc
 ================================================== */
-/* line 266, ../sass/_base.scss */
+/* line 238, ../sass/_base.scss */
 .remove-bottom {
   margin-bottom: 0 !important; }
 
-/* line 267, ../sass/_base.scss */
+/* line 239, ../sass/_base.scss */
 .half-bottom {
   margin-bottom: 10px !important; }
 
-/* line 268, ../sass/_base.scss */
+/* line 240, ../sass/_base.scss */
 .add-bottom {
   margin-bottom: 20px !important; }
 
@@ -948,3 +892,186 @@ legend span {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+/*  Sections
+-------------------------------------------------------------------- */
+/* 	Header  */
+/* line 4, ../sass/_header.scss */
+#header {
+  background: url("../images/header.jpg") top center no-repeat;
+  background-size: cover;
+  min-height: 680px;
+  width: 100%; }
+
+/* line 11, ../sass/_header.scss */
+#header .logo {
+  margin-top: 1em; }
+
+/* 	Nav  */
+/* line 17, ../sass/_header.scss */
+#header nav {
+  text-align: right;
+  margin-top: 2em; }
+
+/* line 22, ../sass/_header.scss */
+#header nav ul li {
+  display: inline-block; }
+
+/* line 25, ../sass/_header.scss */
+#header nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75em 2em;
+  cursor: pointer; }
+
+/* line 34, ../sass/_header.scss */
+#header nav ul li a.btn {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #fff; }
+
+/* line 41, ../sass/_header.scss */
+#header nav ul li a.btn:hover {
+  background: #fff;
+  color: #009be8; }
+
+/* 	Header info  */
+/* line 48, ../sass/_header.scss */
+#header .headertext {
+  margin-top: 10em; }
+
+/* line 52, ../sass/_header.scss */
+#header h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 4.5em;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.3em;
+  font-family: "Lato"; }
+
+/* line 63, ../sass/_header.scss */
+#header p {
+  color: #d5d5d5;
+  font-size: 1.33em;
+  line-height: 1.5;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.2em; }
+
+/* line 71, ../sass/_header.scss */
+#header p strong {
+  color: #fff; }
+
+/*  Sections
+-------------------------------------------------------------------- */
+/* 	Benefits  */
+/* line 5, ../sass/_benefits.scss */
+#benefits {
+  padding: 4em 0 0;
+  text-align: center;
+  font-family: "Lato"; }
+  /* line 9, ../sass/_benefits.scss */
+  #benefits h2 {
+    color: #009be8;
+    font-weight: 300; }
+  /* line 13, ../sass/_benefits.scss */
+  #benefits p {
+    color: #9d9d9d;
+    font-size: 1.2em; }
+  /* line 17, ../sass/_benefits.scss */
+  #benefits .scale-with-grid {
+    margin-left: 60px; }
+
+/*  Pricing  */
+/* line 3, ../sass/_pricing.scss */
+#pricing {
+  background: #009be8;
+  padding: 6em 0;
+  text-align: center; }
+  /* line 7, ../sass/_pricing.scss */
+  #pricing h2 {
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+  /* line 12, ../sass/_pricing.scss */
+  #pricing p {
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em; }
+
+/* line 19, ../sass/_pricing.scss */
+.pricebox {
+  background-color: #fff;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 3em;
+  height: 400px;
+  position: relative; }
+  /* line 27, ../sass/_pricing.scss */
+  .pricebox header {
+    background-color: #f1f1f1;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 1em 0;
+    margin-bottom: 2em; }
+  /* line 36, ../sass/_pricing.scss */
+  .pricebox h3 {
+    color: #4d4d4d;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 600; }
+  /* line 43, ../sass/_pricing.scss */
+  .pricebox section button {
+    background: #2ecc71;
+    position: absolute;
+    bottom: 1em;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center; }
+  /* line 53, ../sass/_pricing.scss */
+  .pricebox section button:hover {
+    background: #1fae5c; }
+
+/* line 58, ../sass/_pricing.scss */
+.pricebox section h4 {
+  display: inline-block;
+  color: #009be8;
+  font-size: 6em;
+  font-weight: 900;
+  vertical-align: bottom; }
+
+/* line 67, ../sass/_pricing.scss */
+.pricebox section h4 span {
+  font-size: 0.5em;
+  line-height: 1;
+  vertical-align: top; }
+
+/* line 73, ../sass/_pricing.scss */
+#pricing .pricebox section p {
+  display: inline-block;
+  color: #9d9d9d;
+  text-shadow: none;
+  line-height: 1;
+  position: relative;
+  top: 1em;
+  font-size: 1.1em; }
+
+/* line 83, ../sass/_pricing.scss */
+.pricebox section ul {
+  margin-top: 3em; }
+
+/* line 87, ../sass/_pricing.scss */
+.pricebox section ul li {
+  font-size: 1.2em;
+  margin-bottom: 1.2em; }
+
+/* line 92, ../sass/_pricing.scss */
+.deal {
+  margin-top: 2em;
+  height: 430px; }
