@@ -528,6 +528,7 @@ table {
 body {
   background: #fff;
   font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -535,110 +536,110 @@ body {
 
 /* #Typography
 ================================================== */
-/* line 64, ../sass/_base.scss */
+/* line 65, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
   font-family: "Georgia", "Times New Roman", serif;
   font-weight: normal; }
 
-/* line 68, ../sass/_base.scss */
+/* line 69, ../sass/_base.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 69, ../sass/_base.scss */
+/* line 70, ../sass/_base.scss */
 h1 {
   font-size: 46px;
   line-height: 50px;
   margin-bottom: 14px; }
 
-/* line 70, ../sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 h2 {
   font-size: 35px;
   line-height: 40px;
   margin-bottom: 10px; }
 
-/* line 71, ../sass/_base.scss */
+/* line 72, ../sass/_base.scss */
 h3 {
   font-size: 28px;
   line-height: 34px;
   margin-bottom: 8px; }
 
-/* line 72, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 h4 {
   font-size: 21px;
   line-height: 30px;
   margin-bottom: 4px; }
 
-/* line 73, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 h5 {
   font-size: 17px;
   line-height: 24px; }
 
-/* line 74, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 h6 {
   font-size: 14px;
   line-height: 21px; }
 
-/* line 75, ../sass/_base.scss */
+/* line 76, ../sass/_base.scss */
 .subheader {
   color: #777; }
 
-/* line 77, ../sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 p {
   margin: 0 0 20px 0; }
 
-/* line 78, ../sass/_base.scss */
+/* line 79, ../sass/_base.scss */
 p img {
   margin: 0; }
 
-/* line 79, ../sass/_base.scss */
+/* line 80, ../sass/_base.scss */
 p.lead {
   font-size: 21px;
   line-height: 27px;
   color: #777; }
 
-/* line 81, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 em {
   font-style: italic; }
 
-/* line 82, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 strong {
   font-weight: bold;
   color: #333; }
 
-/* line 83, ../sass/_base.scss */
+/* line 84, ../sass/_base.scss */
 small {
   font-size: 80%; }
 
 /*	Blockquotes  */
-/* line 86, ../sass/_base.scss */
+/* line 87, ../sass/_base.scss */
 blockquote, blockquote p {
   font-size: 17px;
   line-height: 24px;
   color: #777;
   font-style: italic; }
 
-/* line 87, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd; }
 
-/* line 88, ../sass/_base.scss */
+/* line 89, ../sass/_base.scss */
 blockquote cite {
   display: block;
   font-size: 12px;
   color: #555; }
 
-/* line 89, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 blockquote cite:before {
   content: "\2014 \0020"; }
 
-/* line 90, ../sass/_base.scss */
+/* line 91, ../sass/_base.scss */
 blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
   color: #555; }
 
-/* line 92, ../sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -648,84 +649,84 @@ hr {
 
 /* #Links
 ================================================== */
-/* line 97, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 a, a:visited {
   color: #333;
   text-decoration: underline;
   outline: 0; }
 
-/* line 98, ../sass/_base.scss */
+/* line 99, ../sass/_base.scss */
 a:hover, a:focus {
   color: #000; }
 
-/* line 99, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 p a, p a:visited {
   line-height: inherit; }
 
 /* #Lists
 ================================================== */
-/* line 104, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 ul, ol {
   margin-bottom: 20px; }
 
-/* line 105, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 ul {
   list-style: none outside; }
 
-/* line 106, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 ol {
   list-style: decimal; }
 
-/* line 107, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 ol, ul.square, ul.circle, ul.disc {
   margin-left: 30px; }
 
-/* line 108, ../sass/_base.scss */
+/* line 109, ../sass/_base.scss */
 ul.square {
   list-style: square outside; }
 
-/* line 109, ../sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 ul.circle {
   list-style: circle outside; }
 
-/* line 110, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 ul.disc {
   list-style: disc outside; }
 
-/* line 111, ../sass/_base.scss */
+/* line 112, ../sass/_base.scss */
 ul ul, ul ol,
 ol ol, ol ul {
   margin: 4px 0 5px 30px;
   font-size: 90%; }
 
-/* line 113, ../sass/_base.scss */
+/* line 114, ../sass/_base.scss */
 ul ul li, ul ol li,
 ol ol li, ol ul li {
   margin-bottom: 6px; }
 
-/* line 115, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 li {
   line-height: 18px;
   margin-bottom: 12px; }
 
-/* line 116, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 ul.large li {
   line-height: 21px; }
 
-/* line 117, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 li p {
   line-height: 21px; }
 
 /* #Images
 ================================================== */
-/* line 122, ../sass/_base.scss */
+/* line 123, ../sass/_base.scss */
 img.scale-with-grid {
   max-width: 100%;
   height: auto; }
 
 /* #Buttons
 ================================================== */
-/* line 130, ../sass/_base.scss */
+/* line 131, ../sass/_base.scss */
 .button,
 button,
 input[type="submit"],
@@ -763,7 +764,7 @@ input[type="button"] {
   padding: 8px 10px;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 160, ../sass/_base.scss */
+/* line 161, ../sass/_base.scss */
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -788,7 +789,7 @@ input[type="button"]:hover {
   border-top: 1px solid #aaa;
   border-left: 1px solid #aaa; }
 
-/* line 177, ../sass/_base.scss */
+/* line 178, ../sass/_base.scss */
 .button:active,
 button:active,
 input[type="submit"]:active,
@@ -810,7 +811,7 @@ input[type="button"]:active {
   background: #cccccc linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
   /* W3C */ }
 
-/* line 191, ../sass/_base.scss */
+/* line 192, ../sass/_base.scss */
 .button.full-width,
 button.full-width,
 input[type="submit"].full-width,
@@ -822,7 +823,7 @@ input[type="button"].full-width {
   text-align: center; }
 
 /* Fix for odd Mozilla border & padding issues */
-/* line 202, ../sass/_base.scss */
+/* line 203, ../sass/_base.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -830,15 +831,15 @@ input::-moz-focus-inner {
 
 /* #Forms
 ================================================== */
-/* line 212, ../sass/_base.scss */
+/* line 213, ../sass/_base.scss */
 form {
   margin-bottom: 20px; }
 
-/* line 214, ../sass/_base.scss */
+/* line 215, ../sass/_base.scss */
 fieldset {
   margin-bottom: 20px; }
 
-/* line 216, ../sass/_base.scss */
+/* line 217, ../sass/_base.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -859,11 +860,11 @@ select {
   margin-bottom: 20px;
   background: #fff; }
 
-/* line 235, ../sass/_base.scss */
+/* line 236, ../sass/_base.scss */
 select {
   padding: 0; }
 
-/* line 237, ../sass/_base.scss */
+/* line 238, ../sass/_base.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -874,26 +875,26 @@ textarea:focus {
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
 
-/* line 246, ../sass/_base.scss */
+/* line 247, ../sass/_base.scss */
 textarea {
   min-height: 60px; }
 
-/* line 248, ../sass/_base.scss */
+/* line 249, ../sass/_base.scss */
 label,
 legend {
   display: block;
   font-weight: bold;
   font-size: 13px; }
 
-/* line 253, ../sass/_base.scss */
+/* line 254, ../sass/_base.scss */
 select {
   width: 220px; }
 
-/* line 255, ../sass/_base.scss */
+/* line 256, ../sass/_base.scss */
 input[type="checkbox"] {
   display: inline; }
 
-/* line 257, ../sass/_base.scss */
+/* line 258, ../sass/_base.scss */
 label span,
 legend span {
   font-weight: normal;
@@ -902,15 +903,15 @@ legend span {
 
 /* #Misc
 ================================================== */
-/* line 265, ../sass/_base.scss */
+/* line 266, ../sass/_base.scss */
 .remove-bottom {
   margin-bottom: 0 !important; }
 
-/* line 266, ../sass/_base.scss */
+/* line 267, ../sass/_base.scss */
 .half-bottom {
   margin-bottom: 10px !important; }
 
-/* line 267, ../sass/_base.scss */
+/* line 268, ../sass/_base.scss */
 .add-bottom {
   margin-bottom: 20px !important; }
 
