@@ -1,0 +1,27 @@
+/*  Action  */
+#action {
+	background: url('../images/action.jpg') top center no-repeat;
+	background-size: cover;
+	min-height: 100px;
+	width: 100%;
+	padding: 4em 0;
+	text-align: center;
+
+
+	h2{
+		color: #fff;
+		font-weight: 300;
+		text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+		
+	}
+	p{
+		color: #fff;
+		text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+		font-size: 1.2em;
+		
+	}
+	.row{
+		margin-top: 3em;
+	
+	}
+}
