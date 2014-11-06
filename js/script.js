@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 		if (y >= 1800) {
 
-			$('.test-info').addClass('animated fadeInDown');
+			$('.test-info').addClass('animated bounceIn');
 			$('.test_1').addClass('animated fadeInLeft');
 			$('.test_2').addClass('animated fadeInDown');
 			$('.test_3').addClass('animated fadeInRight');
