@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function (){
 
 	$(window).scroll(function(event){
 		var y = $(this).scrollTop();
@@ -25,7 +25,7 @@ $(document).ready(function(){
         
         if (y >= 2200) {
             
-            $('.cta-info').addClass('animated fadeInDown');
+            $('.cta-info').addClass('animated bounceIn');
 			$('.cta-email').addClass('animated fadeInDown');
 			$('.cta-submit').addClass('animated fadeInDown');
         }
