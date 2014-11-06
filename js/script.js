@@ -22,6 +22,12 @@ $(document).ready(function(){
 			$('.test_2').addClass('animated fadeInDown');
 			$('.test_3').addClass('animated fadeInRight');
 		}
+		 if (y >= 2200) {
+            
+            		$('.cta-info').addClass('animated bounceIn');
+			$('.cta-email').addClass('animated fadeInDown');
+			$('.cta-submit').addClass('animated fadeInDown');
+        }
 
 	});
 
