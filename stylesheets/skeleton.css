@@ -1162,6 +1162,15 @@ legend span {
   /* line 23, ../sass/_action.scss */
   #action .row {
     margin-top: 3em; }
+  /* line 27, ../sass/_action.scss */
+  #action .cta-info {
+    opacity: 0; }
+  /* line 30, ../sass/_action.scss */
+  #action .cta-email {
+    opacity: 0; }
+  /* line 33, ../sass/_action.scss */
+  #action .cta-submit {
+    opacity: 0; }
 
 /* footer  */
 /* line 3, ../sass/_footer.scss */

@@ -17,11 +17,18 @@ $(document).ready(function(){
 
 		if (y >= 1800) {
 
-			$('.test-info').addClass('animated fadeInDown');
+			$('.test-info').addClass('animated bounceIn');
 			$('.test_1').addClass('animated fadeInLeft');
 			$('.test_2').addClass('animated fadeInDown');
 			$('.test_3').addClass('animated fadeInRight');
 		}
+        
+        if (y >= 2200) {
+            
+            $('.cta-info').addClass('animated fadeInDown');
+			$('.cta-email').addClass('animated fadeInDown');
+			$('.cta-submit').addClass('animated fadeInDown');
+        }
 
 	});
 
